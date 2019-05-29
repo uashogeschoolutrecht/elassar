@@ -1,0 +1,18 @@
+---
+title: "README"
+author: "Marc A.T. Teunis"
+date: "5/29/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## `elassar`
+elassar is not on CRAN. Install the package from gihub using devtools
+
+```{r, eval=FALSE}
+# install.packages("devtools")
+devtools::install_github("uashogeschoolutrecht/elassar")
+```
